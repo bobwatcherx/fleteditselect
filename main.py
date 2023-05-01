@@ -36,7 +36,7 @@ def main(page:Page):
 			)
 		page.snack_bar.open = True
 		page.update()
-
+		
 	def updategender(e,x,index):
 		gender_value = e.control.value
 		print(gender_value)
